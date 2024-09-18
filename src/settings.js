@@ -4,7 +4,7 @@ module.exports= {
     'origin': [
       '*',
       'http://localhost:5173',
-      'https://project-school-srv.netlify.app'
+      'https://project-school-srv.netlify.app/'
     ],
     'useHTTP2': false,
     'SMTP_HOST': '',
