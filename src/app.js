@@ -28,7 +28,7 @@ class App {
         this.express.use(morgan('common')); 
         this.express.use(
             cors({
-              origin: 'https://project-school-srv.netlify.app/',
+              origin: this.config.origin,
               credentials: true
             }));
         this.express.use(express.json());
